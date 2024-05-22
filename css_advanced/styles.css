@@ -269,3 +269,69 @@ header {
   color: #C271FF;
 }
 
+/* ==============membership============ */
+
+.membership {
+  width: 100%;
+  height: 502px;
+  background-color: rgba(7, 22, 41, 1);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.membership h1 {
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 60px;
+}
+
+.membership h1 span {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.smiles {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.item_smile {
+  width: 257px;
+  height: 153px;
+}
+
+.item_smile img {
+  margin-bottom: 20px;
+  width: 43.67px;
+  height: 35.35px;
+}
+
+.item_smile h2 {
+  font-size: 18px;
+}
+
+.item_smile p {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.membership button {
+  width: 162px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: #C271FF;
+  border-radius: 22px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
