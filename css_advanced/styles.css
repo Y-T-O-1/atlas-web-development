@@ -380,3 +380,38 @@ header {
   color: rgba(7, 22, 41, 0.5016);
 }
 
+/* ========= Footer ============ */
+
+.footer {
+  width: 100%;
+  height: 249px;
+  background-color: rgba(7, 22, 41, 1);
+  position: relative;
+}
+
+.content_footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.content_footer .img_footer {
+  width: 169px;
+  height: 30px;
+}
+
+.social {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  color: rgb(110, 110, 110);
+  font-size: 12px;
+  font-weight: 400;
+}
