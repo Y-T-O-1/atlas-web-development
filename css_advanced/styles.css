@@ -182,3 +182,90 @@ header {
   font-size: 22px;
   font-weight: 200;
 }
+
+/* ========== section video ===========  */
+
+.populars {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.populars h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+.populars h1 span{
+  font-weight: bold;
+  color: #C271FF;
+}
+
+.popular_container {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 1228px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 255px;
+  height: 335px;
+  margin: auto;
+  position: relative;
+}
+
+.video .play {
+  position: absolute;
+  top: 45px;
+  left: 90px;
+}
+
+.video h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 7px;
+}
+
+.video p {
+  color: rgba(7, 22, 41, 0.5016);
+  font-size: 14px;
+  width: 242px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+}
+
+.video .author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 7px;
+}
+
+.author h3 {
+  color: rgba(194, 113, 255, 1);
+  font-size: 14px;
+}
+
+.video .author img {
+  margin-right: 15px;
+}
+
+.start {
+  margin: 0 7px;
+  position: relative;
+}
+
+.start p {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  color: #C271FF;
+}
+
