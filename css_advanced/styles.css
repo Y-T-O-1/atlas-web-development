@@ -138,3 +138,48 @@ header {
   border-radius: 50%;
 }
 
+/* =============== section ================= */
+
+.quote {
+  width: 100%;
+  height: 392px;
+  background-color: #C271FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 943px;
+  color: #FFFFFF;
+}
+
+.quote_container img {
+  width: 200px;
+}
+
+.quote_container img {
+  padding-right: 53px;
+}
+
+.quote_container blockquote {
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 300;
+}
+
+.quote_container .name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+.quote_container p {
+  font-size: 22px;
+  font-weight: 200;
+}
+
